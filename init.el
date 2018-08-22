@@ -11,3 +11,8 @@
 (setq c-default-style "Linux")
 
 (setq c-basic-offset 4)
+
+(setq ido-enable-flex-matching t)
+(setq ido-use-filename-at-point 'guess)
+(setq ido-everywhere t)          
+(ido-mode 1)
